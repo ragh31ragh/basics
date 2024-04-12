@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Error Validation TestCases]" guice-stage="DEVELOPMENT" verbose="0">
+  <listeners>
+    <listener class-name="RdAutomation.SeleniumFrameworkDesign.TestComponents.Listeners"/>
+  </listeners>
+  <test thread-count="5" name="Login Error Validation(failed)" verbose="0">
+    <groups>
+      <run>
+        <include name="ErrorHandling"/>
+      </run>
+    </groups>
+    <classes>
+      <class name="RdAutomation.SeleniumFrameworkDesign.ErrorValidations">
+        <methods>
+          <include name="tearDown"/>
+          <include name="LoginErrorValidation"/>
+          <include name="launchApplication"/>
+        </methods>
+      </class> <!-- RdAutomation.SeleniumFrameworkDesign.ErrorValidations -->
+    </classes>
+  </test> <!-- Login Error Validation(failed) -->
+</suite> <!-- Failed suite [Error Validation TestCases] -->

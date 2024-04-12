@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="4" passed="4" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-10T13:53:56 IST" name="All Tests Created" finished-at="2024-04-10T13:55:03 IST" duration-ms="67488">
+    <groups>
+      <group name="Purchase">
+        <method signature="eCommerceSubmitOrders.SubmitOrder(java.util.HashMap)[pri:0, instance:RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders@2b30a42c]" name="SubmitOrder" class="RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders"/>
+      </group> <!-- Purchase -->
+    </groups>
+    <test started-at="2024-04-10T13:53:56 IST" name="Test" finished-at="2024-04-10T13:55:03 IST" duration-ms="67488">
+      <class name="RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders">
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders@2b30a42c]" started-at="2024-04-10T13:53:57 IST" name="launchApplication" finished-at="2024-04-10T13:54:07 IST" duration-ms="10539" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders@2b30a42c]" started-at="2024-04-10T13:54:07 IST" name="SubmitOrder" data-provider="getData" finished-at="2024-04-10T13:54:28 IST" duration-ms="20388" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Qatestrd@qaauto.com123, product=ZARA COAT 3, email=qatestrd@qaauto.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders@2b30a42c]" started-at="2024-04-10T13:54:28 IST" name="tearDown" finished-at="2024-04-10T13:54:28 IST" duration-ms="123" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders@2b30a42c]" started-at="2024-04-10T13:54:28 IST" name="launchApplication" finished-at="2024-04-10T13:54:32 IST" duration-ms="4502" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="SubmitOrder(java.util.HashMap)[pri:0, instance:RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders@2b30a42c]" started-at="2024-04-10T13:54:32 IST" name="SubmitOrder" data-provider="getData" finished-at="2024-04-10T13:54:53 IST" duration-ms="20381" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Qatestrd@qaauto.com123, product=ADIDAS ORIGINAL, email=qatestrd2@qaauto.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- SubmitOrder -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders@2b30a42c]" started-at="2024-04-10T13:54:53 IST" name="tearDown" finished-at="2024-04-10T13:54:53 IST" duration-ms="135" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders@2b30a42c]" started-at="2024-04-10T13:54:53 IST" name="launchApplication" finished-at="2024-04-10T13:54:56 IST" duration-ms="3349" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest(java.util.HashMap)[pri:0, instance:RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders@2b30a42c]" started-at="2024-04-10T13:54:56 IST" name="OrderHistoryTest" data-provider="getData" finished-at="2024-04-10T13:54:57 IST" depends-on-methods="RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders.SubmitOrder" duration-ms="1079" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Qatestrd@qaauto.com123, product=ZARA COAT 3, email=qatestrd@qaauto.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders@2b30a42c]" started-at="2024-04-10T13:54:57 IST" name="tearDown" finished-at="2024-04-10T13:54:57 IST" duration-ms="106" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="launchApplication()[pri:0, instance:RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders@2b30a42c]" started-at="2024-04-10T13:54:57 IST" name="launchApplication" finished-at="2024-04-10T13:55:02 IST" duration-ms="5015" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchApplication -->
+        <test-method signature="OrderHistoryTest(java.util.HashMap)[pri:0, instance:RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders@2b30a42c]" started-at="2024-04-10T13:55:02 IST" name="OrderHistoryTest" data-provider="getData" finished-at="2024-04-10T13:55:03 IST" depends-on-methods="RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders.SubmitOrder" duration-ms="1132" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=Qatestrd@qaauto.com123, product=ADIDAS ORIGINAL, email=qatestrd2@qaauto.com}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- OrderHistoryTest -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders@2b30a42c]" started-at="2024-04-10T13:55:03 IST" name="tearDown" finished-at="2024-04-10T13:55:03 IST" duration-ms="112" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders -->
+    </test> <!-- Test -->
+  </suite> <!-- All Tests Created -->
+</testng-results>

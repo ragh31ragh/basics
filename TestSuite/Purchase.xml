@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Purchase Test Suite">
+	<listeners>
+		<listener
+			class-name="RdAutomation.SeleniumFrameworkDesign.TestComponents.Listeners" />
+	</listeners>
+	
+  <test  name="TCs releated to Purchase">
+	  <groups>  
+      <run>  
+         <include name="Purchase"/>  
+      </run>  
+   </groups>  
+    <classes>
+      <class name="RdAutomation.SeleniumFrameworkDesign.eCommerceSubmitOrders"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
